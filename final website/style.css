@@ -1,0 +1,295 @@
+.container-flud {
+    border: 1px solid black;
+    height: 100vh;
+    min-height: fit-content;
+}
+.background-container {
+    background-image: url('img1.jpg');
+    background-size: cover;
+    /* Makes sure the image covers the entire container */
+    background-position: center;
+    /* Centers the image in the container */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    height: 100vh;
+    /* Full height of the viewport */
+}
+.headparent {
+    /* background-color: red; */
+    height: 135px;
+    /* border: 2px solid black; */
+}
+.head {
+    margin: auto;
+    /* border: 2px solid yellow; */
+    height: 60px;
+    width: 90%;
+    display: flex;
+}
+.head1 {
+    /* border: 1px solid black; */
+    height: 100%;
+}
+.head2 {
+    /* border: 1px solid black; */
+    height: 100%;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: 200px; */
+}
+.head3 {
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.ullist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+li {
+    text-decoration: underline;
+    /* color: white; */
+    /* text-decoration: none; */
+}
+.reservebtn {
+    height: 40px;
+}
+
+.content {
+
+    /* border: 4px solid black; */
+    height: 300px;
+    width: 60%;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ionic {
+
+    font-size: 40px;
+}
+
+.hotel {
+    /* margin-bottom: 20px; */
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.luxury {
+    font-size: 15px;
+}
+.sec2r{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    margin-top: 90px;
+}
+ .lodge{
+    text-align: center;
+}
+.exceptional{
+  font-size: 50px;
+  text-align: center;
+}
+.crozyst{
+ text-align: center;
+} 
+.imgsec4{
+    background-image: url('billy-jo-catbagan-zvhjrkA7gSk-unsplash.jpg');
+    background-size: cover; /* Makes sure the image covers the entire container */
+    background-position: center; /* Centers the image in the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec4par{
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 70%;
+    color: white;
+    text-align: center;
+    /* margin: auto; */
+   
+}
+.enjoy{
+  font-size: 12px;
+  font-weight: 800;   
+}
+.spend{
+    font-size: 30px;
+}
+.rooms{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ 
+}
+
+.discover{
+    margin-top: 50px;
+}
+.sec4glass{
+    border: 1px solid black;
+    height: auto;
+    display: flex; 
+     justify-content: center;
+     align-items: center; 
+     margin: auto;
+
+}
+.glassparent{
+    border: 1px solid red;
+    height: 600px;
+    width: 90%;
+    /* margin: auto; */
+    
+}
+.secimgtex{
+ display: flex;
+ /* padding: 10px; */
+ margin-top: 40px;
+}
+.imgglasses{
+  width: 100%;
+  height: 520px;
+
+}
+
+.bgimgtree{
+    background-image:url('img-50.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* @media screen and (min-width:450px) {
+    .bgimgtree{
+        margin-top: 1200px;
+    }
+} */
+.date{
+    text-align: center;
+}
+.select{
+    text-align: center;
+}
+.check{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(32, 94, 119);
+}
+.availbtn{
+    background-color: bisque;
+    color: white;
+   margin-top: 40px;
+   width: 150px;
+   height: 45px;
+}
+/*Add custom styles for different screen sizes */
+ @media (max-width: 768px) {
+    .sec4gls, .bgimgtree {
+        margin-top: 1200px;
+        padding: 10px;
+    }
+    .sec4glass .col-sm-6, .bgimgtree .check .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .rooms > div {
+        margin-bottom: 20px;
+    }
+    .sec3, .sec4glass, .bgimgtree {
+        text-align: center;
+    }
+    .check .availbtn {
+        width: 100%;
+    }
+} 
+
+
+.meettext{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+     display: flex;
+     justify-content: center;
+     /* width: auto; */
+}
+.imgone{
+    background-image:url('one.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 15px;
+}
+.imgtwo{
+    background-image:url('two.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 15px;
+}
+.imgthree{
+    margin-top: 15px;
+    background-image:url('three.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.bgimgfoot{
+    margin-top: 30px;
+     background-image:url('david-ress-0W3oxKVx5WY-unsplash.jpg') ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      color: white;
+       display: flex;
+       align-items: center;
+       justify-content:center ;
+
+
+}
+    .footparnt{
+        /* border: 2px solid black; */
+        height: 450px;
+        width: 90%;
+        margin: auto;
+    }
+    .copy{
+        height: 90px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
